@@ -34,7 +34,6 @@ The project was developed to demonstrate embedded system concepts such as GPIO i
 ## Software Used
 
 - Embedded C
-- Keil μVision
 - Proteus 8 Professional
 
 ---
@@ -58,9 +57,7 @@ The project was developed to demonstrate embedded system concepts such as GPIO i
 ```
 Code/
 Circuit/
-Documentation/
 Images/
-Videos/
 ```
 
 ## Future Enhancements
