@@ -7,6 +7,9 @@ This project implements an automated vending machine using the ARM7 LPC2138 micr
 The project was developed to demonstrate embedded system concepts such as GPIO interfacing, LCD communication, keypad scanning, and finite state machine implementation.
 
 ---
+## Working Principle
+Working principle follows a sequential state machine model, beginning with initialization where the system configures all GPIO pins and peripherals. During normal operation, the microcontroller first displays items on the LCD, then processes user selection through the keypad interface. After receiving valid item and quantity inputs, the system calculates the total price and prompts for payment. The payment processing includes amount entry and validation against the calculated total. For successful transactions, the system activates the dispensing sequence - energizing the motor for timed forward rotation while simultaneously triggering the LED and buzzer. The motor then reverses to reset the mechanism, completing the physical dispensing simulation. Finally, the system calculates and displays any change due, shows a thank you message, and resets.
+---
 
 ## Features
 
